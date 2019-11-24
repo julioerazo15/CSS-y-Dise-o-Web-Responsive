@@ -1,0 +1,298 @@
+*{margin: 0px; padding: 0px;}
+
+body{
+	margin: 10px;
+	padding: 10px;
+	background-color: #02010a;
+}
+
+
+/*--- Cabecera ---*/
+
+
+.contenedor-global{
+	margin: 5px;
+	padding: 5px;
+	animation-name: miAnimacion;
+	animation-duration: 3s;
+}
+
+header{
+	margin: auto;
+	padding: 20px;
+	display: flex;
+	background-color: #5b7989;
+	border: 1px solid;
+	flex-direction: row;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.titulo{
+	margin: auto;
+	padding: auto;
+	width: 100%;
+	height: auto;
+}
+
+.navegador{
+	margin: auto;
+	padding: auto;
+	width: 100%;
+	height: auto;
+}
+
+header div h1{
+	font-family: elephant;
+	color: white;
+	text-shadow: 2px #02010a;
+}
+
+nav ul{
+	display: flex;
+	flex-direction: row;
+}
+
+nav ul li{
+	margin: auto;
+	list-style: none;
+}
+
+nav ul li a{
+	padding: 10px;
+	font-family: elephant;
+	text-shadow: 2px #02010a;
+	color: white;
+}
+
+
+/*-- Cuerpo --*/
+
+
+img{
+	margin: auto;
+	padding: auto;
+	box-shadow: 2px 2px 2px 2px #02010a;
+}
+
+.imagen-principal{
+	margin: auto;
+	padding: 30px;
+	display: flex;
+	flex-direction: row;
+	background-color: #82c3a6;
+	border: 1px solid;
+}
+
+.imagen-secundaria{
+	margin: auto;
+	padding: auto;
+	display: flex;
+	flex-direction: row;
+	background-color: #d5c75f;
+	border: 1px solid;
+}
+
+.paisajes{
+	margin: auto;
+	padding: 20px;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.retratos{
+	margin: auto;
+	padding: 20px;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.imagen-principal > img{
+	margin: auto;
+	padding: auto;
+	display: block;
+	width: 100%;
+	height: 250px;
+}
+
+#paisajes-principal > img{
+	margin: auto;
+	padding: auto;
+	display: block;
+	width: 90%;
+	height: 350px;
+	transition: 1s;
+}
+
+#retratos-principal img{
+	margin: auto;
+	padding: auto;
+	display: block;
+	width: 90%;
+	height: 350px;
+	transition: 1s;
+}
+
+section div div div p{
+	text-align: center;
+	font-family: elephant;
+	color: black;
+	text-shadow: 2px #02010a;
+}
+
+
+/*-- Pié de Página --*/
+
+footer{
+	margin: auto;
+	padding: 20px;
+	background-color: #C6d5c5;
+	border: 1px solid;
+	display: flex;
+	flex-direction: row;
+	border-radius: 0px 0px 10px 10px;
+}
+
+footer div h2{
+	margin: auto;
+	width: 100%;
+	height: auto;
+	font-family: elephant;
+	color: black;
+	text-shadow: 2px #02010a;
+	text-align: center;
+}
+
+footer div ul{
+	margin: auto;
+	padding: auto;
+	width: 95%;
+	height: auto;
+}
+
+footer div ul li{
+	list-style: none;
+	font-family: elephant;
+	font-size: 12px;
+	font-weight: normal;
+	color: black;
+	text-shadow: 2px #02010a;
+	text-align: left;
+}
+
+footer div ul li a{
+	font-family: elephant;
+	color: white;
+	text-shadow: 2px #02010a;
+	text-align: left;
+}
+
+.contacto{
+	margin: auto;
+	padding: auto;
+	width: 100%;
+	height: auto;
+}
+
+.terminos{
+	margin: auto;
+	padding: auto;
+	width: 100%;
+	height: auto;
+}
+
+.redes-sociales{
+	margin: auto;
+	padding: auto;
+	width: 100%;
+	height: auto;
+}
+
+.derechos{
+	margin: auto;
+	padding: auto;
+	width: 100%;
+	height: auto;
+}
+
+
+
+/*-- Efectos y Animaciones --*/
+
+
+@media (max-width: 900px){
+	header{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.imagen-secundaria{
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#imagen-principal > img{
+		margin: auto;
+		width: 100%;
+		height: auto;
+	}
+
+	#paisajes-principal > img{
+		margin: auto;
+		padding: auto;
+		display: inline-block;
+		max-width: 100%;
+		height: auto;
+	}
+
+	#retratos-principal > img{
+		margin: auto;
+		padding: auto;
+		display: inline-block;
+		max-width: 100%;
+		height: auto;
+	}
+
+	header div h1{
+		text-align: center;
+	}
+
+	footer div h2{
+		text-align: left;
+		font-size: 95%;
+	}
+}
+
+
+@-webkit-keyframes miAnimacion{
+	0%{
+		opacity: 0;
+		transform: translateY(150px);
+	}
+	60%{
+		transform: translateY(-5px);
+	}
+	100%{
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+
+img:hover{
+	box-shadow: 10px 10px 0px #82c3a6;
+	border: 2px solid;
+}
+
+#paisajes-principal > img:hover{
+	transform: rotate(10deg);
+}
+
+#retratos-principal > img:hover{
+	transform: translateX(20px) translateY(-5px);
+}

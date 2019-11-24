@@ -1,0 +1,503 @@
+*{margin: 0px; padding: 0px;}
+
+body{
+	margin: 10px;
+	padding: 10px;
+	background-color: #02010a;
+}
+
+
+/*--- Cabecera ---*/
+
+
+.contenedor-global{
+	margin: 5px;
+	padding: 5px;
+	animation-name: miAnimacion;
+	animation-duration: 3s;
+}
+
+header{
+	margin: auto;
+	padding: 20px;
+	display: flex;
+	background-color: #5b7989;
+	border: 1px solid;
+	flex-direction: row;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.titulo{
+	margin: auto;
+	padding: auto;
+	width: 100%;
+	height: auto;
+}
+
+.navegador{
+	margin: auto;
+	padding: auto;
+	width: 100%;
+	height: auto;
+}
+
+header div h1{
+	font-family: elephant;
+	color: white;
+	text-shadow: 2px #02010a;
+}
+
+nav ul{
+	display: flex;
+	flex-direction: row;
+}
+
+nav ul li{
+	margin: auto;
+	list-style: none;
+}
+
+nav ul li a{
+	padding: 10px;
+	font-family: elephant;
+	text-shadow: 2px #02010a;
+	color: white;
+}
+
+
+/*-- Cuerpo --*/
+
+
+img{
+	margin: auto;
+	padding: auto;
+	box-shadow: 2px 2px 2px 2px #02010a;
+}
+
+.galeria{
+	margin: auto;
+	padding: auto;
+	background-color: #d5c75f;
+	border: 1px solid;
+}
+
+
+.bloque1{
+	margin: auto;
+	padding: auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.retratos1{
+	margin: auto;
+	padding: 20px;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.retratos2{
+	margin: auto;
+	padding: 20px;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.retratos3{
+	margin: auto;
+	padding: 20px;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.retratos1 > img{
+	margin: auto;
+	padding: auto;
+	display: block;
+	width: 90%;
+	height: 250px;
+	transition: 1s;
+}
+
+.retratos2 > img{
+	margin: auto;
+	padding: auto;
+	display: block;
+	width: 90%;
+	height: 250px;
+	transition: 1s;
+}
+
+.retratos3 > img{
+	margin: auto;
+	padding: auto;
+	display: block;
+	width: 90%;
+	height: 250px;
+	transition: 1s;
+}
+
+.bloque2{
+	margin: auto;
+	padding: auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.retratos4{
+	margin: auto;
+	padding: 20px;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.retratos5{
+	margin: auto;
+	padding: 20px;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.retratos6{
+	margin: auto;
+	padding: 20px;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.retratos4 > img{
+	margin: auto;
+	padding: auto;
+	display: block;
+	width: 90%;
+	height: 250px;
+	transition: 1s;
+}
+
+.retratos5 > img{
+	margin: auto;
+	padding: auto;
+	display: block;
+	width: 90%;
+	height: 250px;
+	transition: 1s;
+}
+
+.retratos6 > img{
+	margin: auto;
+	padding: auto;
+	display: block;
+	width: 90%;
+	height: 250px;
+	transition: 1s;
+}
+
+.bloque3{
+	margin: auto;
+	padding: auto;
+	display: flex;
+	flex-direction: row;
+	background-color: #d5c75f;
+}
+
+.retratos7{
+	margin: auto;
+	padding: 20px;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.retratos8{
+	margin: auto;
+	padding: 20px;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.retratos9{
+	margin: auto;
+	padding: 20px;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.retratos7 > img{
+	margin: auto;
+	padding: auto;
+	display: block;
+	width: 90%;
+	height: 250px;
+	transition: 1s;
+}
+
+.retratos8 > img{
+	margin: auto;
+	padding: auto;
+	display: block;
+	width: 90%;
+	height: 250px;
+	transition: 1s;
+}
+
+.retratos9 > img{
+	margin: auto;
+	padding: auto;
+	display: block;
+	width: 90%;
+	height: 250px;
+	transition: 1s;
+}
+
+
+
+/*-- Pié de Página --*/
+
+footer{
+	margin: auto;
+	padding: 20px;
+	background-color: #C6d5c5;
+	border: 1px solid;
+	display: flex;
+	flex-direction: row;
+	border-radius: 0px 0px 10px 10px;
+}
+
+footer div h2{
+	margin: auto;
+	width: 100%;
+	height: auto;
+	font-family: elephant;
+	color: black;
+	text-shadow: 2px #02010a;
+	text-align: center;
+}
+
+footer div ul{
+	margin: auto;
+	padding: auto;
+	width: 95%;
+	height: auto;
+}
+
+footer div ul li{
+	list-style: none;
+	font-family: elephant;
+	font-size: 12px;
+	font-weight: normal;
+	color: black;
+	text-shadow: 2px #02010a;
+	text-align: left;
+}
+
+footer div ul li a{
+	font-family: elephant;
+	color: black;
+	text-shadow: 2px #02010a;
+	text-align: left;
+}
+
+.contacto{
+	margin: auto;
+	padding: auto;
+	width: 100%;
+	height: auto;
+}
+
+.terminos{
+	margin: auto;
+	padding: auto;
+	width: 100%;
+	height: auto;
+}
+
+.redes-sociales{
+	margin: auto;
+	padding: auto;
+	width: 100%;
+	height: auto;
+}
+
+.derechos{
+	margin: auto;
+	padding: auto;
+	width: 100%;
+	height: auto;
+}
+
+
+
+/*-- Efectos y Animaciones --*/
+
+
+@media (max-width: 900px){
+	header{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.bloque1{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.bloque2{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.bloque3{
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.retratos1 > img{
+		margin: auto;
+		padding: auto;
+		display: inline-block;
+		max-width: 100%;
+		height: auto;
+	}
+
+	.retratos2 > img{
+		margin: auto;
+		padding: auto;
+		display: inline-block;
+		max-width: 100%;
+		height: auto;
+	}
+
+	.retratos3 > img{
+		margin: auto;
+		padding: auto;
+		display: inline-block;
+		max-width: 100%;
+		height: auto;
+	}
+
+	.retratos4 > img{
+		margin: auto;
+		padding: auto;
+		display: inline-block;
+		max-width: 100%;
+		height: auto;
+	}
+
+	.retratos5 > img{
+		margin: auto;
+		padding: auto;
+		display: inline-block;
+		max-width: 100%;
+		height: auto;
+	}
+
+	.retratos6 > img{
+		margin: auto;
+		padding: auto;
+		display: inline-block;
+		max-width: 100%;
+		height: auto;
+	}
+
+	.retratos7 > img{
+		margin: auto;
+		padding: auto;
+		display: inline-block;
+		max-width: 100%;
+		height: auto;
+	}
+
+	.retratos8 > img{
+		margin: auto;
+		padding: auto;
+		display: inline-block;
+		max-width: 100%;
+		height: auto;
+	}
+
+	.retratos9 > img{
+		margin: auto;
+		padding: auto;
+		display: inline-block;
+		max-width: 100%;
+		height: auto;
+	}
+
+	header div h1{
+		text-align: center;
+	}
+
+	footer div h2{
+		text-align: left;
+		font-size: 95%;
+	}
+}
+
+
+@-webkit-keyframes miAnimacion{
+	0%{
+		opacity: 0;
+		transform: translateY(150px);
+	}
+	60%{
+		transform: translateY(-5px);
+	}
+	100%{
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+
+img:hover{
+	box-shadow: 10px 10px 0px #82c3a6;
+	border: 2px solid;
+}
+
+.retratos1 img{
+	-webkit-filter:blur(10px);
+}
+
+.retratos2 img{
+	-webkit-filter:grayscale(100%);
+}
+
+.retratos3 img{
+	-webkit-filter:sepia(90%);
+}
+
+.retratos4 img{
+	-webkit-filter:grayscale(100%);
+}
+
+.retratos5 img{
+	-webkit-filter:none;
+}
+
+.retratos6 img{
+	-webkit-filter:grayscale(100%);
+}
+
+.retratos7 img{
+	-webkit-filter:contrast(20%);
+}
+
+.retratos8 img{
+	-webkit-filter:grayscale(100%);
+}
+
+.retratos9 img{
+	-webkit-filter:saturate(60%);
+}
